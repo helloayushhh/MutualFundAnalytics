@@ -1,0 +1,13 @@
+DAY 1 - DATA INGESTION SUMMARY
+
+Successfully loaded all 10 CSV datasets using Pandas.
+
+Verified:
+- Dataset shape
+- Data types
+- First five rows
+
+Observations:
+- monthly_sip_inflows.csv contains missing values in yoy_growth_pct.
+- Date columns are currently stored as string data type.
+- No file loading issues found.
