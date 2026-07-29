@@ -1,13 +1,25 @@
-DAY 1 - DATA INGESTION SUMMARY
+# day 1 - data ingestion summary
 
-Successfully loaded all 10 CSV datasets using Pandas.
+## work completed
 
-Verified:
-- Dataset shape
-- Data types
-- First five rows
+- set up the complete project structure and python environment.
+- installed all required libraries and created the requirements.txt file.
+- initialized git, created the github repository, and pushed the initial project.
+- loaded all 10 csv datasets using pandas.
+- checked the shape, data types, and first 5 rows of each dataset.
+- performed an initial data inspection to understand the datasets.
+- fetched live nav data from mfapi for one scheme and saved it as a csv.
+- automated nav fetching for 5 mutual fund schemes using python and api.
+- explored the fund_master.csv dataset to identify unique fund houses, categories, sub-categories, and risk categories.
+- validated amfi codes between fund_master.csv and nav_history.csv.
 
-Observations:
-- monthly_sip_inflows.csv contains missing values in yoy_growth_pct.
-- Date columns are currently stored as string data type.
-- No file loading issues found.
+## observations
+
+- found missing values in the yoy_growth_pct column of monthly_sip_inflows.csv.
+- most date columns are currently stored as strings and will need conversion to datetime during preprocessing.
+- all datasets loaded successfully without any file errors.
+- amfi code validation completed successfully.
+
+## status
+
+successfully completed all day 1 tasks.
