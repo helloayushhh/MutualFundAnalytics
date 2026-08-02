@@ -1,0 +1,26 @@
+# day 2 - data cleaning and database setup summary
+
+## work completed
+
+- cleaned and validated the required datasets.
+- converted date columns to datetime format.
+- standardized transaction type values and validated transaction amounts.
+- validated nav values and expense ratio ranges.
+- generated all 10 cleaned datasets and saved them in the processed folder.
+- created the sqlite database for the project.
+- designed the star schema with dimension and fact tables.
+- loaded all cleaned datasets into sqlite.
+- created schema.sql with create table statements.
+- wrote 10 analytical sql queries in queries.sql.
+- prepared the complete data dictionary with business definitions and source references.
+
+## observations
+
+- no duplicate records were found in the cleaned datasets.
+- no invalid nav or transaction amount values were detected.
+- all performance metrics were successfully validated.
+- all datasets were loaded successfully into the sqlite database.
+
+## status
+
+successfully completed all day 2 tasks.
